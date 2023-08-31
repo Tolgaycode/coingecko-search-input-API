@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Set the character encoding for the document -->
     <meta charset="UTF-8" />
+    <!-- Configure the viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link the external stylesheet for styling -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Set the title of the web page -->
     <title>Coingecko Search Input</title>
   </head>
   <body>
     <div class="container">
+      <!-- Heading for the page -->
       <h1>Coingecko Search Input</h1>
+
+      <!-- Dropdown section for search input -->
       <div class="dropdown">
+        <!-- Input field for user to search -->
         <input type="text" id="searchInput" placeholder="Search..." />
+        <!-- List to display search results -->
         <ul id="dropdownList" class="dropdown-list"></ul>
       </div>
+
+      <!-- Section to display search results -->
       <div class="results">
+        <!-- Title for the search results section -->
         <div class="results-title">Results :</div>
+        <!-- Placeholder for displaying coin name -->
         <div class="coin-name" id="coinName">Coin Name :</div>
+        <!-- Placeholder for displaying coin logo -->
         <div class="coin-logo" id="coinLogo">Coin Logo :</div>
       </div>
     </div>
 
+    <!-- Link the JavaScript file for interaction -->
     <script src="app.js"></script>
   </body>
 </html>

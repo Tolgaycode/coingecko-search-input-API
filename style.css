@@ -1,76 +1,85 @@
-
-
+/* Set base styles for the entire page */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #121212;
-  }
-
-  .container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-  }
-
-  h1 {
-    color: #90C44C;
-    margin: 50px;
-    font-size: 50px;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  #searchInput {
-    padding: 15px;
-    width: 300px;
-    border-radius: 5px;
-    border: none;
-    font-size: larger;
-  }
-  
-  .dropdown-list {
-    position: absolute;
-    border-top: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    max-height: 250px;
-    overflow-y: auto;
-    background-color: #fff;
-    border-radius: 5px;
-   
-  }
-  .dropdown-list li {
-    padding: 8px;
-    cursor: pointer;
-  }
-  
-  .dropdown-list li:hover {
-    background-color: #f0f0f0;
-  }
-
-  .results {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 30px;
-    }
-
-.results-title {
-    color: #90C44C;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #121212;
 }
 
+/* Container for centering content vertically */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Styling for main heading */
+h1 {
+  color: #90C44C;
+  margin: 50px;
+  font-size: 50px;
+}
+
+/* Styling for the search input dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Styling for the search input field */
+#searchInput {
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: larger;
+}
+
+/* Styling for the dropdown list */
+.dropdown-list {
+  position: absolute;
+  border-top: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 250px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Styling for individual items in the dropdown list */
+.dropdown-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Styling for hovered items in the dropdown list */
+.dropdown-list li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling for the results section */
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Styling for the results section title */
+.results-title {
+  color: #90C44C;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styling for coin name display */
 .coin-name {
   color: #fff;
   font-size: 20px;
@@ -78,10 +87,10 @@ body {
   margin-bottom: 20px;
 }
 
+/* Styling for coin logo display */
 .coin-logo {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-  
