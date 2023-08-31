@@ -48,7 +48,7 @@ cd coingecko-search-input
 
 ## Live Demo
 
-You can check out the live demo of the project [here](https://Tolgaycode.github.io/coingecko-search-input).
+You can check out the live demo of the project [here](https://tolgaycode.github.io/coingecko-search-input-API/).
 
 ## Acknowledgements
 
