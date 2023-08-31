@@ -19,7 +19,7 @@ body {
 /* Styling for main heading */
 h1 {
   color: #90C44C;
-  margin: 50px;
+  margin: 6px;
   font-size: 50px;
 }
 
@@ -27,6 +27,7 @@ h1 {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-top: 20px;
 }
 
 /* Styling for the search input field */
