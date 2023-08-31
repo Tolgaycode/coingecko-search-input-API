@@ -1,6 +1,12 @@
+![Project Status](https://img.shields.io/badge/status-completed-brightgreen.svg)
+![First Project](https://img.shields.io/badge/My%20First%20Project-Yes-brightgreen.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 # Coingecko Search Input Project
 
 This is a simple web application that utilizes the Coingecko API to create a search input that displays coin names and their logos.
+
+![Project Screenshot](https://img001.prntscr.com/file/img001/NWPIRrlDRGWXbLEbKR5l8g.png)
 
 ## Project Description
 
