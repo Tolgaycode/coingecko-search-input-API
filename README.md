@@ -6,13 +6,13 @@
 
 This is a simple web application that utilizes the Coingecko API to create a search input that displays coin names and their logos.
 
-![Project Screenshot](https://img001.prntscr.com/file/img001/NWPIRrlDRGWXbLEbKR5l8g.png)
+![Project Screenshot](https://img001.prntscr.com/file/img001/Z-ndU592Qv-6KdSjdR96tA.png)
 
 ## Project Description
 
 The Coingecko Search Input project is a web application that allows users to search for coin names using a search input. As the user types, the application dynamically fetches coin data from the Coingecko API and displays matching coin names along with their logos. When a user clicks on a coin name from the dropdown, the application updates to show the selected coin's name and logo.
 
-![Project Screenshot](https://img001.prntscr.com/file/img001/CPRPHulBSd6wSbUeWtbsWg.png)
+![Project Screenshot](https://img001.prntscr.com/file/img001/-cSYO4IrRh2WF1GYTCxBBg.png)
 
 ## Features
 
