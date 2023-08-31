@@ -52,16 +52,16 @@ function renderDropdown(coins) {
   coins.forEach((coin) => {
     const li = document.createElement("li");
     li.innerHTML = `
-      <img src="${coin.thumb}" alt="${coin.name} Logo">
-      <span>${coin.name}</span>
+      <img src="${coin.thumb}" alt="${coin.symbol} Logo">
+      <span>${coin.symbol}</span>
     `;
 
     // Handle click on a dropdown item
     li.addEventListener("click", () => {
-      searchInput.value = coin.name;
-      coinNameElement.textContent = "Coin Name: " + coin.name;
+      searchInput.value = coin.symbol;
+      coinNameElement.textContent = "Coin Name: " + coin.symbol;
       coinLogoElement.innerHTML =
-        "Coin Logo: " + `<img src="${coin.thumb}" alt="${coin.name} Logo">`;
+        "Coin Logo: " + `<img src="${coin.thumb}" alt="${coin.symbol} Logo">`;
       closeDropdown();
     });
 
